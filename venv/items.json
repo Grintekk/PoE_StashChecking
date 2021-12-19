@@ -12,7 +12,7 @@
             "w": 1,
             "h": 1,
             "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9NYWdpYyIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/130762c82d/CurrencyUpgradeToMagic.png",
-            "stackSize": 1317,
+            "stackSize": 1037,
             "maxStackSize": 5000,
             "league": "Scourge",
             "id": "34e6da2e62ddd2be377fb0c0bc52fed4baf8331a7a635d48fd5b09d7db0fc3ac",
@@ -26,7 +26,7 @@
                     "name": "Stack Size",
                     "values": [
                         [
-                            "1317/40",
+                            "1037/40",
                             0
                         ]
                     ],
