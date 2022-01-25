@@ -1,0 +1,1870 @@
+{
+    "id": "30ea17717a",
+    "name": "Cash",
+    "type": "CurrencyStash",
+    "index": 0,
+    "metadata": {
+        "colour": "ff"
+    },
+    "items": [
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9NYWdpYyIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/130762c82d/CurrencyUpgradeToMagic.png",
+            "stackSize": 557,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "34e6da2e62ddd2be377fb0c0bc52fed4baf8331a7a635d48fd5b09d7db0fc3ac",
+            "name": "",
+            "typeLine": "Orb of Transmutation",
+            "baseType": "Orb of Transmutation",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "557/40",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Upgrades a normal item to a magic item"
+            ],
+            "descrText": "Right click this item then left click a normal item to apply it.",
+            "frameType": 5,
+            "x": 8,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lQYXNzaXZlU2tpbGxSZWZ1bmQiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/6b8ab3ff07/CurrencyPassiveSkillRefund.png",
+            "stackSize": 53,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "5e1db7722c629c517d3859cabd77ddd095063235d133a21ebcb639967baa11d1",
+            "name": "",
+            "typeLine": "Orb of Regret",
+            "baseType": "Orb of Regret",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "53/40",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Grants a passive skill refund point"
+            ],
+            "descrText": "Right click on this item to use it.",
+            "frameType": 5,
+            "x": 7,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9SYXJlIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/f0dc27cd7c/CurrencyUpgradeToRare.png",
+            "stackSize": 312,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "3b73575b089638942765a6e1dd8bb1c5f1dc11655d1077837c0830fd09c91c82",
+            "name": "",
+            "typeLine": "Orb of Alchemy",
+            "baseType": "Orb of Alchemy",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "312/10",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Upgrades a normal item to a rare item"
+            ],
+            "descrText": "Right click this item then left click a normal item to apply it.",
+            "frameType": 5,
+            "x": 5,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQW5jaWVudFNoYXJkIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/bb214de034/AncientShard.png",
+            "stackSize": 8,
+            "maxStackSize": 20,
+            "league": "Scourge",
+            "id": "ab3598676cad5a4dc0f8c6f2e5751c1fd951cd6ecbb549a8e802aa4310402670",
+            "name": "",
+            "typeLine": "Ancient Shard",
+            "baseType": "Ancient Shard",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "8/20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "descrText": "A stack of 20 shards becomes an Ancient Orb.",
+            "frameType": 5,
+            "x": 62,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUmVncmV0T3JiIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/a2ebb4b5a3/RegretOrb.png",
+            "stackSize": 13,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "9a7d99be2ab0c6ae0032360ca9b96a5ae9c35d2afc0b20bfbc4e7a9177ed39ba",
+            "name": "",
+            "typeLine": "Orb of Unmaking",
+            "baseType": "Orb of Unmaking",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "13/40",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Grants an atlas passive skill refund point"
+            ],
+            "descrText": "Right click on this item to use it.",
+            "frameType": 5,
+            "x": 70,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9GbGFza0luamVjdG9yIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/08e3793591/FlaskInjector.png",
+            "stackSize": 172,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "46bf520674f6c183cde0f18c18d405334c8c1d702be19c7ed529d4227919bb07",
+            "name": "",
+            "typeLine": "Instilling Orb",
+            "baseType": "Instilling Orb",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "172/10",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Adds an enchantment to a utility flask that will cause it to be used when certain conditions are met. Replaces any existing enchantment."
+            ],
+            "descrText": "Right click this item then left click a flask to apply it.",
+            "frameType": 5,
+            "x": 74,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbi9GbGFza1BsYXRlIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/c03aace282/FlaskPlate.png",
+            "stackSize": 43,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "8112c73182f72843cb89a9e75b180d9b894fd14f1449dc40c578af9809f7a4dc",
+            "name": "",
+            "typeLine": "Enkindling Orb",
+            "baseType": "Enkindling Orb",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "43/10",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Adds an enchantment to a utility flask that will improve it but prevent it from gaining charges during its effect. Replaces any existing enchantment."
+            ],
+            "descrText": "Right click this item then left click a flask to apply it.",
+            "frameType": 5,
+            "x": 73,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGVsbHNjYXBlL0hlbGxzY2FwZU9yYk9mRnVzaW5nIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/a97eb273c3/HellscapeOrbOfFusing.png",
+            "stackSize": 9,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "045535bdec7218e97b4ef4770f3d01d1c0ca73a6a1b28162198f774c0401ca98",
+            "name": "",
+            "typeLine": "Tainted Orb of Fusing",
+            "baseType": "Tainted Orb of Fusing",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "9/20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Unpredictably adds or removes a link to the largest group of linked sockets on a corrupted item"
+            ],
+            "descrText": "Right click this item then left click a corrupted socketed item to apply it.",
+            "frameType": 5,
+            "x": 34,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lGbGFza1F1YWxpdHkiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/8a36dffe11/CurrencyFlaskQuality.png",
+            "stackSize": 169,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "109621a1d75bc7228bd005a3dca394293c9f8ae6ec62bdb0b37c7b873ffe423e",
+            "name": "",
+            "typeLine": "Glassblower's Bauble",
+            "baseType": "Glassblower's Bauble",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "169/20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Improves the quality of a flask"
+            ],
+            "descrText": "Right click this item then left click a flask to apply it. Has greater effect on lower-rarity flasks. The maximum quality is 20%.",
+            "frameType": 5,
+            "x": 15,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSG9yaXpvblNoYXJkIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/396c5f134f/HorizonShard.png",
+            "stackSize": 7,
+            "maxStackSize": 20,
+            "league": "Scourge",
+            "id": "09dec9993b062b4e493434bab22dee36dedf6f1ab5a45845ca5e48b18aaafffb",
+            "name": "",
+            "typeLine": "Horizon Shard",
+            "baseType": "Horizon Shard",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "7/20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "descrText": "A stack of 20 shards becomes an Orb of Horizons.",
+            "frameType": 5,
+            "x": 56,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lXZWFwb25RdWFsaXR5IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/c874e03eb7/CurrencyWeaponQuality.png",
+            "stackSize": 1408,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "e097801d058a4894acb9cfbe12cf7f3257cc414aad2df106b439dd14ace246e1",
+            "name": "",
+            "typeLine": "Blacksmith's Whetstone",
+            "baseType": "Blacksmith's Whetstone",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "1408/20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Improves the quality of a weapon"
+            ],
+            "descrText": "Right click this item then left click a weapon to apply it. Has greater effect on lower-rarity weapons. The maximum quality is 20%.",
+            "frameType": 5,
+            "x": 0,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGVsbHNjYXBlL0hlbGxzY2FwZUFybW91cmVyc1NjcmFwIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/05e0065a80/HellscapeArmourersScrap.png",
+            "stackSize": 133,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "8b7025c85ddb9a05b4c06953e48cf57b3585ae41f0790e93d26a92f5e025c261",
+            "name": "",
+            "typeLine": "Tainted Armourer's Scrap",
+            "baseType": "Tainted Armourer's Scrap",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "133/40",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Randomises the quality of a corrupted armour"
+            ],
+            "descrText": "Right click this item then left click a corrupted armour to apply it. The maximum random quality is 29%.",
+            "frameType": 5,
+            "x": 30,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lQb3J0YWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/a55c72f398/CurrencyPortal.png",
+            "stackSize": 787,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "ca05b95278f24edd094c07857cfacce222f58503b49f647d8ce654c20e8107cd",
+            "name": "",
+            "typeLine": "Portal Scroll",
+            "baseType": "Portal Scroll",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "787/40",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Creates a portal to town"
+            ],
+            "descrText": "Right click on this item to use it.",
+            "frameType": 5,
+            "x": 14,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxTb2NrZXROdW1iZXJzIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/685633cb14/CurrencyRerollSocketNumbers.png",
+            "stackSize": 2096,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "0a819ec3218d1faf920e6ccd79598c0bd40dbf0ff29e18fa458466bfb61b5bae",
+            "name": "",
+            "typeLine": "Jeweller's Orb",
+            "baseType": "Jeweller's Orb",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "2096/20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Reforges the number of sockets on an item"
+            ],
+            "descrText": "Right click this item then left click a socketed item to apply it. The item's quality increases the chances of obtaining more sockets.",
+            "frameType": 5,
+            "x": 19,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRW5naW5lZXJzU2hhcmQiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/b2112a2c72/EngineersShard.png",
+            "stackSize": 18,
+            "maxStackSize": 20,
+            "league": "Scourge",
+            "id": "fc6ac9e64d4ed9f273d4bcac70c45c6a6769be5c607ea71e2a0f4533c1a9f255",
+            "name": "",
+            "typeLine": "Engineer's Shard",
+            "baseType": "Engineer's Shard",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "18/20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "descrText": "A stack of 20 shards becomes an Engineer's Orb.",
+            "frameType": 5,
+            "x": 65,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9SYXJlU2hhcmQiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/2e51dc8c8c/CurrencyUpgradeToRareShard.png",
+            "stackSize": 16,
+            "maxStackSize": 20,
+            "league": "Scourge",
+            "id": "0186e6c78f594465ab13f52f99b2a7a49c9e177dccd061b9d111cc18fdee4ba0",
+            "name": "",
+            "typeLine": "Alchemy Shard",
+            "baseType": "Alchemy Shard",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "16/20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "descrText": "A stack of 20 shards becomes an Orb of Alchemy.",
+            "frameType": 5,
+            "x": 26,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQXRsYXNSYWRpdXNUaWVyMyIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/07377648d7/AtlasRadiusTier3.png",
+            "stackSize": 3,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "bea042cfa9091f7a5dde14200d6a68601764877a4fe4f3c1d1b6c507586c918a",
+            "name": "",
+            "typeLine": "Awakened Sextant",
+            "baseType": "Awakened Sextant",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "3/10",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Adds or rerolls a modifier on a Watchstone."
+            ],
+            "descrText": "Right click this item then left click a Watchstone to apply it.",
+            "frameType": 5,
+            "x": 38,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lJZGVudGlmaWNhdGlvbkZyYWdtZW50IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/4f379102ee/CurrencyIdentificationFragment.png",
+            "stackSize": 2,
+            "maxStackSize": 5,
+            "league": "Scourge",
+            "id": "eaefe5db6f00c33f1adb4a90da3a8137f81ce63bb6612192aff960a992926d53",
+            "name": "",
+            "typeLine": "Scroll Fragment",
+            "baseType": "Scroll Fragment",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "2/5",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "descrText": "A stack of 5 fragments becomes a Scroll of Wisdom.",
+            "frameType": 5,
+            "x": 23,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxTb2NrZXRMaW5rcyIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/f38529edfc/CurrencyRerollSocketLinks.png",
+            "stackSize": 497,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "adae5e2d3da14e3424e4ab5c61f09776edc553966ca1149d145ad9d619d5e2a7",
+            "name": "",
+            "typeLine": "Orb of Fusing",
+            "baseType": "Orb of Fusing",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "497/20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Reforges the links between sockets on an item"
+            ],
+            "descrText": "Right click this item then left click a socketed item to apply it. The item's quality increases the chances of obtaining more links.",
+            "frameType": 5,
+            "x": 18,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBcm1vdXJRdWFsaXR5IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/0b964e9b9e/CurrencyArmourQuality.png",
+            "stackSize": 1759,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "3c64726d8a10546d71f248bd6be58d64b688c274bf5eb00f0125b7711ed65453",
+            "name": "",
+            "typeLine": "Armourer's Scrap",
+            "baseType": "Armourer's Scrap",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "1759/40",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Improves the quality of an armour"
+            ],
+            "descrText": "Right click this item then left click an armour to apply it. Has greater effect on lower-rarity armours. The maximum quality is 20%.",
+            "frameType": 5,
+            "x": 3,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lJbXBsaWNpdE1vZCIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/c3cbf3e5ab/CurrencyImplicitMod.png",
+            "stackSize": 114,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "79aa742a244383433801905d9c2384942ee5c519ede9a2d7fe2da2974524f892",
+            "name": "",
+            "typeLine": "Blessed Orb",
+            "baseType": "Blessed Orb",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "114/20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Randomises the numeric values of the implicit modifiers of an item"
+            ],
+            "descrText": "Right click this item then left click another item to apply it.",
+            "frameType": 5,
+            "x": 21,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxNYWdpYyIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/28212545fd/CurrencyRerollMagic.png",
+            "stackSize": 98,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "861b5666bb69627ed8a65b1416a1da15fdc0929870b8db020294cf80c908ce18",
+            "name": "",
+            "typeLine": "Orb of Alteration",
+            "baseType": "Orb of Alteration",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "98/20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Reforges a magic item with new random modifiers"
+            ],
+            "descrText": "Right click this item then left click a magic item to apply it.",
+            "frameType": 5,
+            "x": 9,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGVsbHNjYXBlL0hlbGxzY2FwZUJsYWNrc21pdGhXaGV0c3RvbmUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/c1551a2a62/HellscapeBlacksmithWhetstone.png",
+            "stackSize": 132,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "17a32815daa8ddeaa7d15a2b8c054d06191796a2c6be944f986472c480dd4216",
+            "name": "",
+            "typeLine": "Tainted Blacksmith's Whetstone",
+            "baseType": "Tainted Blacksmith's Whetstone",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "132/20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Randomises the quality of a corrupted weapon"
+            ],
+            "descrText": "Right click this item then left click a corrupted weapon to apply it. The maximum random quality is 29%.",
+            "frameType": 5,
+            "x": 33,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lDb252ZXJ0VG9Ob3JtYWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/6953e90545/CurrencyConvertToNormal.png",
+            "stackSize": 120,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "6075f4d43bace78d5a808e7f3755b46675497d4f2a05e7b2da9ef0ff29d98881",
+            "name": "",
+            "typeLine": "Orb of Scouring",
+            "baseType": "Orb of Scouring",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "120/30",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Removes all modifiers from an item"
+            ],
+            "descrText": "Right click this item then left click on a magic or rare item to apply it.",
+            "frameType": 5,
+            "x": 10,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGFyYmluZ2VyU2hhcmQiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/9b8b1837d2/HarbingerShard.png",
+            "stackSize": 9,
+            "maxStackSize": 20,
+            "league": "Scourge",
+            "id": "d3a31700251b954cdac0b28aaada89fd0b8570b48af4e894852bb3b3abc2f7ac",
+            "name": "",
+            "typeLine": "Harbinger's Shard",
+            "baseType": "Harbinger's Shard",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "9/20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "descrText": "A stack of 20 shards becomes a Harbinger's Orb.",
+            "frameType": 5,
+            "x": 64,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxNYWdpY1NoYXJkIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/2dc121cb4e/CurrencyRerollMagicShard.png",
+            "stackSize": 5,
+            "maxStackSize": 20,
+            "league": "Scourge",
+            "id": "2e493f8567bfaafcd9a3c660211461bb90843395e965fcfec0b7f274b40c6696",
+            "name": "",
+            "typeLine": "Alteration Shard",
+            "baseType": "Alteration Shard",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "5/20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "descrText": "A stack of 20 shards becomes an Orb of Alteration.",
+            "frameType": 5,
+            "x": 25,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGVsbHNjYXBlL0hlbGxzY2FwZUV4YWx0ZWRPcmIiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/7cb146de94/HellscapeExaltedOrb.png",
+            "stackSize": 1,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "70b1887a43d924a80ccb7239144f8b4979074cbd58b33444fe36a3220d5c316a",
+            "name": "",
+            "typeLine": "Tainted Exalted Orb",
+            "baseType": "Tainted Exalted Orb",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "1/10",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Unpredictably adds or removes a modifier on a corrupted rare item"
+            ],
+            "descrText": "Right click this item then left click a corrupted rare item to apply it. Rare items can have up to six random modifiers.",
+            "frameType": 5,
+            "x": 40,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lJZGVudGlmaWNhdGlvbiIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/3a1e615322/CurrencyIdentification.png",
+            "stackSize": 501,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "3866d0e866269888359b844c385a777df7c353148957dc0021a122075bfa9ba6",
+            "name": "",
+            "typeLine": "Scroll of Wisdom",
+            "baseType": "Scroll of Wisdom",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "501/40",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Identifies an item"
+            ],
+            "descrText": "Right click this item then left click an unidentified item to apply it.",
+            "frameType": 5,
+            "x": 1,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb01hZ2ljIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/1a6cb2ad17/CurrencyAddModToMagic.png",
+            "stackSize": 718,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "3aaa03402a62d571b59e087fd979dc8b40c6a3ba02c81a8f9ab059fb7e57a3d3",
+            "name": "",
+            "typeLine": "Orb of Augmentation",
+            "baseType": "Orb of Augmentation",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "718/30",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Augments a magic item with a new random modifier"
+            ],
+            "descrText": "Right click this item then left click a magic item to apply it. Magic items can have up to two random modifiers.",
+            "frameType": 5,
+            "x": 13,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU2lsdmVyT2JvbCIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/dddacec493/SilverObol.png",
+            "stackSize": 13,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "55d94cb5d8843c67129449d1a20418ab0f8908394967f7dd606ca069bf986ba8",
+            "name": "",
+            "typeLine": "Silver Coin",
+            "baseType": "Silver Coin",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "13/30",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "descrText": "Cross Navali's palm with silver to receive a prophecy.",
+            "frameType": 5,
+            "x": 35,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvVmVpbGVkQ2hhb3NPcmIiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/fe00a81cbc/VeiledChaosOrb.png",
+            "stackSize": 6,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "277ff7db3324f0664dbcef9e99ead2f20a711ad1fd0e6db8f530945ed8010611",
+            "name": "",
+            "typeLine": "Veiled Chaos Orb",
+            "baseType": "Veiled Chaos Orb",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "6/10",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Reforges a rare item with new random modifiers, including a Veiled modifier. Can only be used on items that can have a Veiled modifier."
+            ],
+            "descrText": "Right click this item then left click a rare item to apply it.",
+            "frameType": 5,
+            "x": 75,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQW5udWxsU2hhcmQiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/f7a8a838a6/AnnullShard.png",
+            "stackSize": 14,
+            "maxStackSize": 20,
+            "league": "Scourge",
+            "id": "1ba245e8f5cba5a0a51f0c76d8261de9620d9afe92c29733975e556b4b4c85ce",
+            "name": "",
+            "typeLine": "Annulment Shard",
+            "baseType": "Annulment Shard",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "14/20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "descrText": "A stack of 20 shards becomes an Orb of Annulment.",
+            "frameType": 5,
+            "x": 53,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRW5naW5lZXJzT3JiIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/56b41a5ee5/EngineersOrb.png",
+            "stackSize": 72,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "361a62b09156f2d177cfb7290e82632c5bd2809f7b292e70483600560381acfc",
+            "name": "",
+            "typeLine": "Engineer's Orb",
+            "baseType": "Engineer's Orb",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "72/20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Improves the quality of a Strongbox"
+            ],
+            "descrText": "Right click this item then left click a Strongbox to apply it. Has greater effect on lower rarity Strongboxes. The maximum quality is 20%.",
+            "frameType": 5,
+            "x": 60,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlUmFuZG9tbHkiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/eaeece27be/CurrencyUpgradeRandomly.png",
+            "stackSize": 1754,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "9857c3bd7ef05f8925b2572b810bec350c68f21fc792fce61b7233db62ccf707",
+            "name": "",
+            "typeLine": "Orb of Chance",
+            "baseType": "Orb of Chance",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "1754/20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Upgrades a normal item to a random rarity"
+            ],
+            "descrText": "Right click this item then left click a normal item to apply it.",
+            "frameType": 5,
+            "x": 6,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/e1a54ff97d/CurrencyModValues.png",
+            "stackSize": 5,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "896ee8793d879da411758b335825b44a863a2604d499709b6d4b6bc2a4bffce5",
+            "name": "",
+            "typeLine": "Divine Orb",
+            "baseType": "Divine Orb",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "5/10",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Randomises the numeric values of the random modifiers on an item"
+            ],
+            "descrText": "Right click this item then left click a magic, rare or unique item to apply it.",
+            "frameType": 5,
+            "x": 20,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhhbHRlZFNoYXJkIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/a919870741/ExaltedShard.png",
+            "stackSize": 4,
+            "maxStackSize": 20,
+            "league": "Scourge",
+            "id": "8b26d18eec7ea24c8b15f991dec5a6145b87225ed9f177f0731b75b40e4475bc",
+            "name": "",
+            "typeLine": "Exalted Shard",
+            "baseType": "Exalted Shard",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "4/20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "descrText": "A stack of 20 shards becomes an Exalted Orb.",
+            "frameType": 5,
+            "x": 51,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGVsbHNjYXBlL0hlbGxzY2FwZUpld2VsbGVyc09yYiIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/7ade99596b/HellscapeJewellersOrb.png",
+            "stackSize": 167,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "93fc88a44fcf81242db004140d1f364e707b9cf97dfccec860870d7d21387854",
+            "name": "",
+            "typeLine": "Tainted Jeweller's Orb",
+            "baseType": "Tainted Jeweller's Orb",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "167/20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Unpredictably adds or removes a socket on a corrupted item"
+            ],
+            "descrText": "Right click this item then left click a corrupted socketed item to apply it.",
+            "frameType": 5,
+            "x": 32,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmluZGluZ09yYiIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/66ef64410c/BindingOrb.png",
+            "stackSize": 369,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "1a05d137fe829b73bf247205e66d4212b77637af93918927530df95f67ba03bf",
+            "name": "",
+            "typeLine": "Orb of Binding",
+            "baseType": "Orb of Binding",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "369/20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Upgrades a normal item to a rare item with up to four linked sockets"
+            ],
+            "descrText": "Right click this item then left click a normal item to apply it.",
+            "frameType": 5,
+            "x": 59,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlTWFnaWNUb1JhcmUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/898378b439/CurrencyUpgradeMagicToRare.png",
+            "stackSize": 187,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "57d97b1391d8a7c4ad3e7d605caf7aa8ee7f565e8217d3d60dcdcd3c36d7f6f4",
+            "name": "",
+            "typeLine": "Regal Orb",
+            "baseType": "Regal Orb",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "187/10",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Upgrades a magic item to a rare item"
+            ],
+            "descrText": "Right click this item then left click a magic item to apply it. Current modifiers are retained and a new one is added.",
+            "frameType": 5,
+            "x": 12,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lHZW1RdWFsaXR5IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/1be1273b91/CurrencyGemQuality.png",
+            "stackSize": 109,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "6212102cc026d0f0da342f6c41af8f1d59810c80e76c18e5ba012a0ce481b9e5",
+            "name": "",
+            "typeLine": "Gemcutter's Prism",
+            "baseType": "Gemcutter's Prism",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "109/20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Improves the quality of a gem"
+            ],
+            "descrText": "Right click this item then left click a gem to apply it. The maximum quality is 20%.",
+            "frameType": 5,
+            "x": 16,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUmVnYWxTaGFyZCIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/972b7b232b/RegalShard.png",
+            "stackSize": 7,
+            "maxStackSize": 20,
+            "league": "Scourge",
+            "id": "dc8ffdfa4109bcda43737d3f3604c2a6215051e11bfea9d1ff27ee3f6bea6714",
+            "name": "",
+            "typeLine": "Regal Shard",
+            "baseType": "Regal Shard",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "7/20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "descrText": "A stack of 20 shards becomes a Regal Orb.",
+            "frameType": 5,
+            "x": 52,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQXRsYXNSYWRpdXNUaWVyMSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/0c00e7167c/AtlasRadiusTier1.png",
+            "stackSize": 11,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "702563c065ca05fda1f9bcb1cace67b6282c7193c7c65f8961fb54e53c31fed2",
+            "name": "",
+            "typeLine": "Simple Sextant",
+            "baseType": "Simple Sextant",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "11/10",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Adds or rerolls a modifier on a Watchstone."
+            ],
+            "descrText": "Right click this item then left click a Watchstone to apply it.",
+            "frameType": 5,
+            "x": 36,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxTb2NrZXRDb2xvdXJzIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/136314c10a/CurrencyRerollSocketColours.png",
+            "stackSize": 644,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "c627c48c3975b2903801e967abc0533f671a43259dfef441cf47b39345ca0715",
+            "name": "",
+            "typeLine": "Chromatic Orb",
+            "baseType": "Chromatic Orb",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "644/20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Reforges the colour of sockets on an item"
+            ],
+            "descrText": "Right click this item then left click a socketed item to apply it.",
+            "frameType": 5,
+            "x": 17,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQmluZGluZ1NoYXJkIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/4c5b54654a/BindingShard.png",
+            "stackSize": 11,
+            "maxStackSize": 20,
+            "league": "Scourge",
+            "id": "f2dbd5c7f83e1504a52450d11f0eff0bed1048c86f8d4f0df37ada5e5646948b",
+            "name": "",
+            "typeLine": "Binding Shard",
+            "baseType": "Binding Shard",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "11/20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "descrText": "A stack of 20 shards becomes an Orb of Binding.",
+            "frameType": 5,
+            "x": 63,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSG9yaXpvbk9yYiIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/a48e326c68/HorizonOrb.png",
+            "stackSize": 18,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "a5bd3d86f446bf3953dfd698b870b13fa9fe63f5c73349eb094080c48d4b7de0",
+            "name": "",
+            "typeLine": "Orb of Horizons",
+            "baseType": "Orb of Horizons",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "18/20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Reforges a map item as another of the same tier"
+            ],
+            "descrText": "Right click this item then left click a map to apply it.",
+            "frameType": 5,
+            "x": 55,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ2hhb3NTaGFyZCIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/fa09d6f7ba/ChaosShard.png",
+            "stackSize": 11,
+            "maxStackSize": 20,
+            "league": "Scourge",
+            "id": "867f1416d7450caa6b734b3b2167442f14655f3ce0109e052f95a1dc1994a2c2",
+            "name": "",
+            "typeLine": "Chaos Shard",
+            "baseType": "Chaos Shard",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "11/20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "descrText": "A stack of 20 shards becomes a Chaos Orb.",
+            "frameType": 5,
+            "x": 49,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU3Ryb25naG9sZHMvSGFld2Fya0hhbWxldFdhdGNoc3RvbmUyIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/d361129b8a/HaewarkHamletWatchstone2.png",
+            "league": "Scourge",
+            "id": "30aca574ddb68dc616e732832c96e5965301ad9d1399b575ce59d3678976afd6",
+            "name": "",
+            "typeLine": "Unsplintered Platinum Haewark Hamlet Watchstone of Glassblowing",
+            "baseType": "Platinum Haewark Hamlet Watchstone",
+            "identified": true,
+            "ilvl": 85,
+            "explicitMods": [
+                "Breach Splinters have 0.02% chance to drop as Breachstones instead in Areas",
+                "Flasks found in Areas have 3% chance to drop with 20% Quality"
+            ],
+            "descrText": "Socket this into a Citadel on your Atlas to increase the Tier of Maps and reveal hidden Maps in that Citadel's Region. You can only socket one Crimson, Viridian, Cobalt or Golden Watchstone into each Citadel.",
+            "flavourText": [
+                "Only the souls trapped within can bear witness to the Maven's dark proclivities, and they dare not speak up."
+            ],
+            "frameType": 1,
+            "x": 28,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQW5udWxsT3JiIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/88cfdbe1e5/AnnullOrb.png",
+            "stackSize": 7,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "faa4d5d5995a5cad07d753e46b819a57706c4b903c7999ee5f5d03c08f388fc7",
+            "name": "",
+            "typeLine": "Orb of Annulment",
+            "baseType": "Orb of Annulment",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "7/20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Removes a random modifier from an item"
+            ],
+            "descrText": "Right click this item then left click on a magic or rare item to apply it.",
+            "frameType": 5,
+            "x": 54,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvSGFyYmluZ2VyT3JiIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/3e31090ea7/HarbingerOrb.png",
+            "stackSize": 8,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "516669c649fa0c8be5eb525499fc7c98d9b8377977c235a6379dad55c44c1b7a",
+            "name": "",
+            "typeLine": "Harbinger's Orb",
+            "baseType": "Harbinger's Orb",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "8/20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Reforges a map item as another of a higher tier"
+            ],
+            "descrText": "Right click this item then left click a map to apply it.",
+            "frameType": 5,
+            "x": 57,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQXRsYXNSYWRpdXNUaWVyMiIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/cffbaa5a94/AtlasRadiusTier2.png",
+            "stackSize": 4,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "18f926bea57958e1971b7eb6297d1ed5188486fb3989935ca6d0f09883a31027",
+            "name": "",
+            "typeLine": "Prime Sextant",
+            "baseType": "Prime Sextant",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "4/10",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Adds or rerolls a modifier on a Watchstone."
+            ],
+            "descrText": "Right click this item then left click a Watchstone to apply it.",
+            "frameType": 5,
+            "x": 37,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNYXBRdWFsaXR5IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/c83c35bed5/CurrencyMapQuality.png",
+            "stackSize": 590,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "f833d0732695c9c002de9c4ecda1be26b24fdf41d7df134e2e682705d92534c3",
+            "name": "",
+            "typeLine": "Cartographer's Chisel",
+            "baseType": "Cartographer's Chisel",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "590/20",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Improves the quality of a map"
+            ],
+            "descrText": "Right click this item then left click a map to apply it. Has greater effect on lower-rarity maps. The maximum quality is 20%.",
+            "frameType": 5,
+            "x": 22,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lWYWFsIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/304f775089/CurrencyVaal.png",
+            "stackSize": 108,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "9cd484e365d1256490f691dbf41ef994d42c3ba3f6bb95b0ea47440aabb1fa9e",
+            "name": "",
+            "typeLine": "Vaal Orb",
+            "baseType": "Vaal Orb",
+            "identified": true,
+            "ilvl": 0,
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "108/10",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Corrupts an item, modifying it unpredictably"
+            ],
+            "descrText": "Right click this item then left click an item to corrupt it. Corrupted items cannot be modified again.",
+            "frameType": 5,
+            "x": 27,
+            "y": 0,
+            "inventoryId": "Stash1"
+        },
+        {
+            "verified": false,
+            "w": 1,
+            "h": 1,
+            "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/d119a0d734/CurrencyRerollRare.png",
+            "stackSize": 407,
+            "maxStackSize": 5000,
+            "league": "Scourge",
+            "id": "cb64c0a2614f6829a92d130b180e828bd04a6148315a36d5d89f6bc42934233d",
+            "name": "",
+            "typeLine": "Chaos Orb",
+            "baseType": "Chaos Orb",
+            "identified": true,
+            "ilvl": 0,
+            "note": "~price 1/159 exalted",
+            "properties": [
+                {
+                    "name": "Stack Size",
+                    "values": [
+                        [
+                            "407/10",
+                            0
+                        ]
+                    ],
+                    "displayMode": 0,
+                    "type": 32
+                }
+            ],
+            "explicitMods": [
+                "Reforges a rare item with new random modifiers"
+            ],
+            "descrText": "Right click this item then left click a rare item to apply it.",
+            "frameType": 5,
+            "x": 2,
+            "y": 0,
+            "inventoryId": "Stash1"
+        }
+    ]
+}
