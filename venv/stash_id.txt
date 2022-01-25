@@ -1,1 +1,180 @@
-["30ea17717a", "c753c51cb0", "a58867a473", "f397c247a8", "978e65f7b4", "14ef13fe7b", "e76a8c189a", "091bd22240", "ada256680d", "56c86e203e", "5d3b211f67", "b47b36cda9", "6fde9a10db", "a214b49708", "71697777d3", "96e72c3f97", "e27e603c6e", "62513931b5", "c199353cc4"]
+{
+    "stashes": [
+        {
+            "id": "30ea17717a",
+            "name": "Cash",
+            "type": "CurrencyStash",
+            "index": 0,
+            "metadata": {
+                "colour": "ff"
+            }
+        },
+        {
+            "id": "c753c51cb0",
+            "name": "Maps",
+            "type": "MapStash",
+            "index": 1,
+            "metadata": {
+                "colour": "bf0000"
+            }
+        },
+        {
+            "id": "a58867a473",
+            "name": "Set",
+            "type": "FragmentStash",
+            "index": 2,
+            "metadata": {
+                "public": true,
+                "colour": "80b3ff"
+            }
+        },
+        {
+            "id": "f397c247a8",
+            "name": "Divination",
+            "type": "DivinationCardStash",
+            "index": 3,
+            "metadata": {
+                "colour": "888888"
+            }
+        },
+        {
+            "id": "978e65f7b4",
+            "name": "essence",
+            "type": "EssenceStash",
+            "index": 4,
+            "metadata": {
+                "public": true,
+                "colour": "bf5e00"
+            }
+        },
+        {
+            "id": "14ef13fe7b",
+            "name": "3",
+            "type": "PremiumStash",
+            "index": 5,
+            "metadata": {
+                "public": true,
+                "colour": "638000"
+            }
+        },
+        {
+            "id": "e76a8c189a",
+            "name": "asa",
+            "type": "PremiumStash",
+            "index": 6,
+            "metadata": {
+                "public": true,
+                "colour": "ffd500"
+            }
+        },
+        {
+            "id": "091bd22240",
+            "name": "Fossils",
+            "type": "PremiumStash",
+            "index": 7,
+            "metadata": {
+                "public": true,
+                "colour": "cc009a"
+            }
+        },
+        {
+            "id": "ada256680d",
+            "name": "7",
+            "type": "NormalStash",
+            "index": 8,
+            "metadata": {
+                "colour": "7c5436"
+            }
+        },
+        {
+            "id": "56c86e203e",
+            "name": "9",
+            "type": "NormalStash",
+            "index": 9,
+            "metadata": {
+                "colour": "7c5436"
+            }
+        },
+        {
+            "id": "5d3b211f67",
+            "name": "2",
+            "type": "NormalStash",
+            "index": 10,
+            "metadata": {
+                "colour": "7c5436"
+            }
+        },
+        {
+            "id": "b47b36cda9",
+            "name": "1",
+            "type": "NormalStash",
+            "index": 11,
+            "metadata": {
+                "colour": "7c5436"
+            }
+        },
+        {
+            "id": "6fde9a10db",
+            "name": "6",
+            "type": "NormalStash",
+            "index": 12,
+            "metadata": {
+                "colour": "7c5436"
+            }
+        },
+        {
+            "id": "a214b49708",
+            "name": "8",
+            "type": "NormalStash",
+            "index": 13,
+            "metadata": {
+                "colour": "7c5436"
+            }
+        },
+        {
+            "id": "71697777d3",
+            "name": "111",
+            "type": "PremiumStash",
+            "index": 14,
+            "metadata": {
+                "colour": "dddddd"
+            }
+        },
+        {
+            "id": "96e72c3f97",
+            "name": "5",
+            "type": "NormalStash",
+            "index": 15,
+            "metadata": {
+                "colour": "7c5436"
+            }
+        },
+        {
+            "id": "e27e603c6e",
+            "name": "3",
+            "type": "NormalStash",
+            "index": 16,
+            "metadata": {
+                "colour": "7c5436"
+            }
+        },
+        {
+            "id": "62513931b5",
+            "name": "4",
+            "type": "NormalStash",
+            "index": 17,
+            "metadata": {
+                "colour": "7c5436"
+            }
+        },
+        {
+            "id": "c199353cc4",
+            "name": "Fossil",
+            "type": "PremiumStash",
+            "index": 18,
+            "metadata": {
+                "colour": "ffd500"
+            }
+        }
+    ]
+}
