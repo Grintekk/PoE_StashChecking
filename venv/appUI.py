@@ -7,7 +7,7 @@ class AppWindow(QWidget):
     icon_indent = 70
     list_of_currency = ["Chaos Orb", "Orb of Alchemy", "Orb of Regret", "Gemcutter's Prism",
                         "Orb of Alteration", "Orb of Regret", "Orb of Fusing", "Cartographer's Chisel",
-                        "Orb of Scouring", "Regal Orb", "Divine Orb", "Vaal Orb", "Awakened Sextant"]
+                        "Orb of Scouring", "Regal Orb", "Divine Orb", "Vaal Orb", "Awakened Sextant"] # упорядоченый список валюты
     def __init__(self):
         super().__init__()
         self.setWindowTitle("App")
@@ -19,7 +19,7 @@ class AppWindow(QWidget):
         self.labels_arr = [QLabel(self) for i in range(13)]
         self.currency_counts = [QLabel(self) for i in range(13)]
 
-    def load_image(self,file_name,n):
+    def load_image(self,file_name,n): #загружаем картинку с отступом сверху
         transport = (5 + self.icon_indent*n)
         pixmap = QPixmap(file_name)
         #self.currency_counts[n].setText(str(file_name))
@@ -27,7 +27,7 @@ class AppWindow(QWidget):
         self.labels_arr[n].setPixmap(pixmap)
         self.labels_arr[n].setGeometry(30, transport, self.icon_indent, self.icon_indent)
 
-    def load_value(self,dict_values,list_of_currency):
+    def load_value(self,dict_values,list_of_currency): #
         count = 0
         for i in list_of_currency:
             transport = (15 + self.icon_indent * count)
