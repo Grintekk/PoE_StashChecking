@@ -1834,7 +1834,7 @@
             "w": 1,
             "h": 1,
             "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/d119a0d734/CurrencyRerollRare.png",
-            "stackSize": 407,
+            "stackSize": 3542,
             "maxStackSize": 5000,
             "league": "Scourge",
             "id": "cb64c0a2614f6829a92d130b180e828bd04a6148315a36d5d89f6bc42934233d",
