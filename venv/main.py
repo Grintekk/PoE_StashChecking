@@ -48,6 +48,7 @@ class MainApp():
         currency_list = {}
         for i in data["lines"]:
             currency_list[i["currencyTypeName"]] = i["chaosEquivalent"]
+        currency_list["Chaos Orb"] = 1
         return currency_list
     # def getCurrency(self,file_name):# из выбраного файл список валюты
     #     data_items = self.open_file(file_name)
