@@ -20,16 +20,18 @@ class MainApp():
         stash_list = requests.get(self.url, headers=self.auth_headers, data={}).json()
         id_stash = stash_list['stashes'][0]['id']
         self.url = self.url + '/' + id_stash
-        self.send_request()
-        self.save_file(self.give_new_value(),"New_info")
+        self.items_list = self.send_request()
+        self.save_file(self.items_list,"New_info")
         self.save_file(self.ninja_request(),"Currency_Equivalent")
 
-    def send_request(self):
-        self.items_list = requests.get(self.url, headers=self.auth_headers, data={}).json()
-        self.items_list = self.items_list['stash']
-    def give_new_value(self): #отправляет запрос и сохраняет инфу в файл(new_info)!
+    def send_request(self): #обновляем инфу запросом
+        items_list = requests.get(self.url, headers=self.auth_headers, data={}).json()
+        items_list = items_list['stash']
+        items_list = self.give_value(items_list)
+        return items_list
+    def give_value(self,items_list): #возвращает словарь валютки избавляясь от лишнего
         all_currency ={}
-        for i in self.items_list['items']:
+        for i in items_list['items']:
             if i.get('stackSize'):
                 all_currency[i['typeLine']] = i['stackSize']
         return all_currency
