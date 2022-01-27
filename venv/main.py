@@ -1,7 +1,7 @@
 import requests
 import json
 import sys
-import allCurrency,appUI
+import os
 
 class MainApp():
     def __init__(self):
@@ -20,14 +20,52 @@ class MainApp():
         stash_list = requests.get(self.url, headers=self.auth_headers, data={}).json()
         id_stash = stash_list['stashes'][0]['id']
         self.url = self.url + '/' + id_stash
-        self.save_info()
-    def save_info(self): #отправляет запрос и сохраняет инфу в файл
-        self.items_list = requests.get(self.url, headers=self.auth_headers, data={}).json()
-        with open('items.txt', 'w') as outfile:
-            json.dump(self.items_list['stash'], outfile, indent=4)
+        self.send_request()
+        self.save_file(self.give_new_value(),"New_info")
+        self.save_file(self.ninja_request(),"Currency_Equivalent")
 
-def main():
-    app = MainApp()
-    appUI.main_window()
-if __name__ == "__main__":
-    main()
+    def send_request(self):
+        self.items_list = requests.get(self.url, headers=self.auth_headers, data={}).json()
+        self.items_list = self.items_list['stash']
+    def give_new_value(self): #отправляет запрос и сохраняет инфу в файл(new_info)!
+        all_currency ={}
+        for i in self.items_list['items']:
+            if i.get('stackSize'):
+                all_currency[i['typeLine']] = i['stackSize']
+        return all_currency
+    def save_file(self,all_currency, file_name):
+        with open(str(file_name) + '.txt', 'w') as outfile:
+            json.dump(all_currency, outfile, indent=4)
+    def open_file(self, file_name):
+        with open(str(file_name)+'.txt') as outfile:
+            data_items = json.load(outfile)
+        return data_items
+    def ninja_request(self):
+        req = requests.get("https://poe.ninja/api/data/currencyoverview?type=Currency&league=Standard")
+        data = req.json()
+        currency_list = {}
+        for i in data["lines"]:
+            currency_list[i["currencyTypeName"]] = i["chaosEquivalent"]
+        return currency_list
+    # def getCurrency(self,file_name):# из выбраного файл список валюты
+    #     data_items = self.open_file(file_name)
+    #     # all_currency = {}
+    #     # for i in data_items['items']:
+    #     #     if i.get('stackSize'):
+    #     #         all_currency[i['typeLine']] = i['stackSize']
+    #     return all_currency
+
+    def saveImg(self):
+        data_items = self.open_file("items")
+        location = os.path.abspath("C:/Users/Admin/PycharmProjects/PoE_StashChecking/venv/Icons/")
+        for i in data_items['items']:
+            img_data = requests.get(i['icon']).content
+            with open(location + '\\' + str(i['typeLine']) + '.png', 'wb') as handler:
+                handler.write(img_data)
+###
+# def main():
+#     app = MainApp()
+#     app.give_new_value()
+#     appUI.main_window()
+# #if __name__ == "__main__":
+# main()
