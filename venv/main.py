@@ -5,8 +5,8 @@ import os
 
 class MainApp():
     def __init__(self):
-        self.getToken()
-    def getToken(self): #получаем токен и формируем ссылку на запрос
+        self.get_token()
+    def get_token(self): #получаем токен и формируем ссылку на запрос
         req = requests.post("https://www.pathofexile.com/oauth/token",
                             headers={'Content-Type': 'application/x-www-form-urlencoded',
                                      'User-Agent': 'OAuth grintekk/1.0.0 (contact: grintekk@gmail.com)'},
@@ -14,11 +14,14 @@ class MainApp():
                                   'grant_type': 'client_credentials', 'scope': 'account:stashes'})
         data = req.json()
         self.auth_headers = {'Authorization': f'Bearer {data["access_token"]}',
-                        'Content-Type': 'application/x-www-form-urlencoded',
-                        'User-Agent': 'OAuth grintekk/1.0.0 (contact: grintekk@gmail.com)'}
-        self.url = "https://api.pathofexile.com/stash/scourge"
+                             'Content-Type': 'application/x-www-form-urlencoded',
+                             'User-Agent': 'OAuth grintekk/1.0.0 (contact: grintekk@gmail.com)'}
+        self.url = "https://api.pathofexile.com/stash/standard"
         stash_list = requests.get(self.url, headers=self.auth_headers, data={}).json()
-        id_stash = stash_list['stashes'][0]['id']
+        for i in stash_list['stashes']:
+            if i['name'] == 'Cash':
+                id_stash = i['id']
+                break
         self.url = self.url + '/' + id_stash
         self.items_list = self.send_request()
         self.save_file(self.items_list,"New_info")
@@ -58,13 +61,13 @@ class MainApp():
     #     #         all_currency[i['typeLine']] = i['stackSize']
     #     return all_currency
 
-    def saveImg(self):
-        data_items = self.open_file("items")
-        location = os.path.abspath("C:/Users/Admin/PycharmProjects/PoE_StashChecking/venv/Icons/")
-        for i in data_items['items']:
-            img_data = requests.get(i['icon']).content
-            with open(location + '\\' + str(i['typeLine']) + '.png', 'wb') as handler:
-                handler.write(img_data)
+    # def saveImg(self):
+    #     data_items = self.open_file("items")
+    #     location = os.path.abspath("C:/Users/Admin/PycharmProjects/PoE_StashChecking/venv/Icons/")
+    #     for i in data_items['items']:
+    #         img_data = requests.get(i['icon']).content
+    #         with open(location + '\\' + str(i['typeLine']) + '.png', 'wb') as handler:
+    #             handler.write(img_data)
 ###
 # def main():
 #     app = MainApp()

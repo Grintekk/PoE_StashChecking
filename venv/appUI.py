@@ -1,11 +1,11 @@
 import sys
 from main import MainApp
-from  PyQt5.QtGui import QPixmap, QImage
+from PyQt5.QtGui import QPixmap, QImage
 from PyQt5.QtWidgets import QApplication,QHBoxLayout,QPushButton,QWidget,QGraphicsItem,QLabel
 
-class AppWindow(QWidget):
+class App_window(QWidget):
     icon_indent = 70
-    list_of_currency = ["Chaos Orb", "Orb of Alchemy", "Orb of Regret", "Gemcutter's Prism",
+    list_of_currency = [ "Orb of Alchemy", "Orb of Regret", "Gemcutter's Prism","Chaos Orb",
                         "Orb of Alteration", "Orb of Regret", "Orb of Fusing", "Cartographer's Chisel",
                         "Orb of Scouring", "Regal Orb", "Divine Orb", "Vaal Orb", "Awakened Sextant"] # упорядоченый список валюты
     def __init__(self):
@@ -16,7 +16,7 @@ class AppWindow(QWidget):
         self.left = 40
         self.top = 40
         self.width = 1500
-        self.height = 900
+        self.height = 950
         self.setGeometry(self.left,self.top,self.width,self.height)
 
         self.labels_arr = [QLabel(self) for i in range(len(self.list_of_currency))]
@@ -98,7 +98,7 @@ class AppWindow(QWidget):
         count = 0
         for i in arr:    #проверка только по выведенным
             mult = float(self.changing_currency[count].text())*value[i]
-            self.load_value(self.currency_equal_values[count],mult,count,pos_x=750)
+            self.load_value(self.currency_equal_values[count],int(mult),count,pos_x=750)
             sum += mult
             count +=1
         # sum += self.currency_value["Chaos Orb"]
@@ -112,7 +112,7 @@ class AppWindow(QWidget):
 
 def main_window():
     app = QApplication(sys.argv)
-    window = AppWindow()
+    window = App_window()
 
     window.show()
     sys.exit(app.exec_())
