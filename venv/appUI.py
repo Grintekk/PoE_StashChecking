@@ -1,7 +1,7 @@
 import sys
 from main import MainApp
 from PyQt5.QtGui import QPixmap, QImage
-from PyQt5.QtWidgets import QApplication,QHBoxLayout,QPushButton,QWidget,QGraphicsItem,QLabel
+from PyQt5.QtWidgets import QApplication,QHBoxLayout,QPushButton,QWidget,QGraphicsItem,QLabel,QComboBox
 
 class App_window(QWidget):
     icon_indent = 70
@@ -24,6 +24,10 @@ class App_window(QWidget):
         self.new_currency_counts = [QLabel(self) for i in range(len(self.list_of_currency))] #новый
         self.changing_currency = [QLabel(self) for i in range(len(self.list_of_currency))] #разница
         self.currency_equal_values = [QLabel(self) for i in range(len(self.list_of_currency))] #массив в хаосах
+        self.league_list = QComboBox(self)
+        self.stash_list = QComboBox(self)
+
+
 
         self.image_arr_path = self.create_path()
         self.old_value_arr = self.app_main.items_list.copy()
@@ -36,6 +40,12 @@ class App_window(QWidget):
         # self.button_save_file.setGeometry(1000,300,100,50)
         # self.button_save_file.clicked.connect(self.button_save_click)
 
+        self.league_list.setGeometry(900,100,70,25)
+        self.league_list.addItems(["standard","hardcore"])
+        self.league_list.activated[str].connect(self.change_league)
+
+        self.stash_list.setGeometry(1000,100,150,30)
+
         self.button_currency_eq = QPushButton(self)
         self.button_currency_eq.setText("calculate eq")
         self.button_currency_eq.setGeometry(1000,300,100,50)
@@ -47,6 +57,14 @@ class App_window(QWidget):
         self.button_refresh.clicked.connect(self.button_refresh_click)
 
         self.creating_display()
+
+    def change_league(self, text):
+        self.stash_list.clear()
+        stash_list_get = {}
+        stash_list_get = self.app_main.stash_list_get(text)
+        print(type(stash_list_get))
+        for i in stash_list_get:
+            self.stash_list.addItem(i["name"])
     def load_image(self,label,file_name,n,pos_x): #загружаем картинку с отступом сверху
         transport = (5 + self.icon_indent*n)#?каждый раз вызывается
         pixmap = QPixmap(file_name)
