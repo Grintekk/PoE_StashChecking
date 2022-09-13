@@ -1,16 +1,20 @@
 import sys
 from main import MainApp
+from datetime import datetime
 from PyQt5.QtGui import QPixmap, QImage
-from PyQt5.QtWidgets import QApplication,QHBoxLayout,QPushButton,QWidget,QGraphicsItem,QLabel,QComboBox
+from PyQt5.QtWidgets import QApplication, QTabWidget,QHBoxLayout,QPushButton,QWidget,QGraphicsItem,QLabel,QComboBox
+
 
 class App_window(QWidget):
     icon_indent = 70
     list_of_currency = [ "Orb of Alchemy", "Orb of Regret", "Gemcutter's Prism","Chaos Orb",
                         "Orb of Alteration", "Orb of Regret", "Orb of Fusing", "Cartographer's Chisel",
                         "Orb of Scouring", "Regal Orb", "Divine Orb", "Vaal Orb", "Awakened Sextant"] # упорядоченый список валюты
-    def __init__(self):
+    def __init__(self,parent=None):
         super().__init__()
         self.app_main = MainApp()
+
+
 
         self.setWindowTitle("App")
         self.left = 40
@@ -24,21 +28,40 @@ class App_window(QWidget):
         self.new_currency_counts = [QLabel(self) for i in range(len(self.list_of_currency))] #новый
         self.changing_currency = [QLabel(self) for i in range(len(self.list_of_currency))] #разница
         self.currency_equal_values = [QLabel(self) for i in range(len(self.list_of_currency))] #массив в хаосах
+
+        # self.timer_end = QLabel(self)
         self.league_list = QComboBox(self)
         self.stash_list = QComboBox(self)
 
+        # self.timer_begin = strftime('%H:%M:%S', time.localtime())
+        # self.timer_end = strftime('%H:%M:%S', time.localtime())
 
+
+        # self.tabwidget = QTabWidget()
+        # self.tabwidget.width()
+        # self.next_tab = QTabWidget(self)
+        # self.next_tab.setGeometry(50,50,100,30)
+        # self.new_window = [NextWindow() for i in range(3)]
+        # count = 0
+        # for i in self.new_window:
+        #     self.next_tab.addTab(i,"new window" + str(count))
+        #     self.next_tab.setTabText(count, str(count))
+        #     count +=1
+        # self.next_tab = [QTabWidget(self) for i in range(3)]
+        # for i in range(len(self.next_tab)):
+        #     self.next_tab[i].setTabText(str(i))
+
+        # self.button_test = QPushButton(self)
+        # self.button_test.setGeometry(1100,700,100,100)
+        # self.button_test.setText("test")
+        # self.button_test.clicked.connect(self.create_window)
+
+        self.timer_result = QLabel(self)
+        self.timer_result.setGeometry(1000,250,100,25)
 
         self.image_arr_path = self.create_path()
         self.old_value_arr = self.app_main.items_list.copy()
         self.new_value_arr = self.app_main.items_list
-        # self.currency_value = self.app_main.give_value()
-
-
-        # self.button_save_file = QPushButton(self)
-        # self.button_save_file.setText("Save")
-        # self.button_save_file.setGeometry(1000,300,100,50)
-        # self.button_save_file.clicked.connect(self.button_save_click)
 
         self.league_list.setGeometry(900,100,70,25)
         self.league_list.addItems(["standard","hardcore"])
@@ -57,7 +80,7 @@ class App_window(QWidget):
         self.button_refresh.clicked.connect(self.button_refresh_click)
 
         self.creating_display()
-
+        
     def change_league(self, text):
         self.stash_list.clear()
         stash_list_get = {}
@@ -77,6 +100,7 @@ class App_window(QWidget):
         label.setGeometry(pos_x,transport,self.icon_indent,self.icon_indent)
 
     def creating_display(self): # цикл для загрузки картинок и значений, будет привязан к кнопке "сбросить"
+        self.timer_begin = datetime.now()
         count = 0
         for i in self.image_arr_path:
             self.load_image(self.labels_arr[count],i, count,pos_x=30)
@@ -86,9 +110,11 @@ class App_window(QWidget):
 
     def button_refresh_click(self):#клик кнопки "сбросить"
         self.old_value_arr = self.app_main.send_request().copy()
+        self.timer_result.setText('0:00:00')
         self.creating_display()
 
     def button_new_info(self):
+
         self.new_value_arr = self.app_main.send_request()
         # calc_list = []
         count = 0
@@ -106,9 +132,10 @@ class App_window(QWidget):
             count +=1
         self.button_currency_calculate()
 
-    # def button_save_click(self):
-        # self.app_main.save_info("NewFile")#переделать
+
     def button_currency_calculate(self):
+        self.timer_end = datetime.now()
+        self.timer_result.setText(str(self.timer_end - self.timer_begin).split('.')[0])
         value = self.app_main.ninja_request()
         sum = 0
         arr = self.list_of_currency.copy()
@@ -127,6 +154,8 @@ class App_window(QWidget):
         for i in self.list_of_currency:
             image_arr_path.append("./Icons/" + str(i) + ".png")
         return image_arr_path
+
+
 
 def main_window():
     app = QApplication(sys.argv)
